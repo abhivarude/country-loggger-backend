@@ -11,4 +11,4 @@ app.use("",require("./routes/allroutes"));
 app.use("",require("./routes/stateroutes"))
 
 
-app.listen(process.env.port||3002,()=>{console.log("port connected 3002")}) 
+app.listen(process.env.PORT||3002,()=>{console.log("port connected 3002")}) 
